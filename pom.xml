@@ -90,5 +90,24 @@
 		</dependency>
 
 	</dependencies>
+	
+	<scm>
+		<connection>${scm.connection}</connection>
+		<developerConnection>${scm.developerConnection}</developerConnection>
+		<url>${scm.url}</url>
+	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>${repo.release.id}</id>
+			<name>Internal Releases</name>
+			<url>${repo.release.url}</url>
+		</repository>
+		<snapshotRepository>
+			<id>${repo.snapshot.id}</id>
+			<name>Internal Snapshots</name>
+			<url>${repo.snapshot.url}</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
