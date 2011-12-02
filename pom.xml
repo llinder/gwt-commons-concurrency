@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.mhi.p.forge</groupId>
 		<artifactId>forge-parent</artifactId>
-		<version>1.0</version>
+		<version>1.1</version>
 		<relativePath />
 	</parent>
 
@@ -19,6 +19,9 @@
 	<properties>
 		<gwt.version>2.3.0</gwt.version>
 		<gwt.mojo.version>2.3.0-1</gwt.mojo.version>
+		
+		<scm.connection>scm:git:git@github.com:llinder/gwt-commons-concurrency.git</scm.connection>
+		<scm.developerConnection>scm:git:git@github.com:llinder/gwt-commons-concurrency.git</scm.developerConnection>
 	</properties>
 
 	<build>
